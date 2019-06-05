@@ -56,6 +56,7 @@ namespace VoiceRecognitionTst2
                 "whats  the temperature?",
                 "Stop",
                 "search for",
+                "open Virus Pro" 
                 
             });
 
@@ -170,7 +171,12 @@ namespace VoiceRecognitionTst2
                     search = true;
                 }
 
-
+                  if (r == ""open Virus Pro" ")
+                {
+                   
+                }
+                  
+                  
                 if (r == "Hello")
                 {
                     say(greetings_action());
